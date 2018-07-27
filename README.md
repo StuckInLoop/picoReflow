@@ -114,7 +114,7 @@ More info: https://apollo.open-resource.org/mission:resources:picoreflow
 ## since the previous auto start commands does not seem to work as of today
 ## updated for auto start under raspian with another method
 Go to directory:
-  cd /etc/systemd/system
+  ```cd /etc/systemd/system
 
 Create a service file with name such as:  picoreflow.service    
   sudo nano picoreflow.service
