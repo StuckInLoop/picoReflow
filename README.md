@@ -141,7 +141,14 @@ Have content such as:
 ```
 
 After you saved the file make sure you enable the service autostart with command:
-
   
   ```sudo systemctl enable picoreflow.service```
 
+You can check the service status with command:
+
+ ```sudo service picoreflow.service status```
+
+You can manually start the service with command:
+
+ ``` sudo service picoreflow.service start```
+ 
