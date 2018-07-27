@@ -112,7 +112,7 @@ Please use the issue tracker for project related issues.
 More info: https://apollo.open-resource.org/mission:resources:picoreflow
 
 
-## Since the previous auto start commands does not seem to work as of today
+## if you have difficulty getting the auto start running correctly then you can try this method below
 Go to directory:
   
   ```cd /etc/systemd/system```
