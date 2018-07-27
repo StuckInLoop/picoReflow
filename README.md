@@ -111,15 +111,18 @@ Please use the issue tracker for project related issues.
 
 More info: https://apollo.open-resource.org/mission:resources:picoreflow
 
-## since the previous auto start commands does not seem to work as of today
-## updated for auto start under raspian with another method
+
+## Since the previous auto start commands does not seem to work as of today
 Go to directory:
+  
   ```cd /etc/systemd/system```
 
 Create a service file with name such as:  picoreflow.service    
+  
   ```sudo nano picoreflow.service```
 
 Have content such as:
+
 ```
    [Unit]
    Description=PicoReflow System
@@ -136,7 +139,9 @@ Have content such as:
    [Install]
    WantedBy=multi-user.target
 ```
+
 After you saved the file make sure you enable the service autostart with command:
 
+  
   ```sudo systemctl enable picoreflow.service```
 
